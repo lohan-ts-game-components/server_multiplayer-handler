@@ -1,0 +1,19 @@
+{
+  "name": "server_movement-handler",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "serve": "bun --hot src/index.ts run dev",
+    "test": "exit 0",
+    "ts:watch": "tsc --watch --noEmit"
+  },
+  "dependencies": {
+    "msgpackr": "^1.9.9"
+  }
+}
